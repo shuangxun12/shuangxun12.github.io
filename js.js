@@ -1,4 +1,6 @@
+alert("false");
 var d = new Date();
+alert("right");
 document.write("<br>");
 document.write("现在的时间是：");
 document.write(d.getFullYear());
