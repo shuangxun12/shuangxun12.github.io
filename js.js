@@ -3,8 +3,8 @@ function url() {
 
 	alert("网页地址: "+document.URL);
 
-	var value = document.getElemntById("mylabel").innerHTML;
+	var value = document.getElementById("mylabel").innerHTML;
 	alert(value);
-	document.getElemntById("mylabel").innerHTML = "hello world!";
+	document.getElementById("mylabel").innerHTML = "hello world!";
 }
 
