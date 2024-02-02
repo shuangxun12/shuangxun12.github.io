@@ -1,15 +1,13 @@
-function myfun(arg) {
-	var a = 100;
-	alert(typeof(a));
-
-	var str = arg;
-	alert(str);
-
-	return a;
+function url() {
+	var myurl = "当前网页的url是：";
+	myurl += window.location.href;
+	alert(myurl);
 }
 
-function fun1() {
-	var b = "b = ";
-	b += myfun(10);
-	alert(b);
+function set() {
+	window.open("http://www.baidu.com");
+}
+
+function close(){
+	window.close();
 }
