@@ -5,7 +5,7 @@ function myfun(arg) {
 	var str = arg;
 	alert(str);
 
-	return 0
+	return a;
 }
 
 function fun1() {
