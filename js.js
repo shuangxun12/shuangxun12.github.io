@@ -5,6 +5,7 @@ function url() {
 
 	var value = document.getElementById("mylabel").innerHTML;
 	alert(value);
+	alert("hello")
 	document.getElementById("mylabel").innerHTML = "hello world!";
 }
 
