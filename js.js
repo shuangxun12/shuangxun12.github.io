@@ -1,4 +1,5 @@
-function fun(){
+function fun() {
+  alert("test");
   var d = new Date();
   document.write("<br>");
   document.write("现在的时间是：");
