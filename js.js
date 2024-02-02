@@ -1,13 +1,10 @@
 function url() {
-	var myurl = "当前网页的url是：";
-	myurl += window.location.href;
-	alert(myurl);
+	alert("网页标题： "+document.title);
+
+	alert("网页地址: "+document.URL);
+
+	var value = document.getElemntById("mylabel").innerHTML;
+	alert(value);
+	document.getElemntById("mylabel").innerHTML = "hello world!";
 }
 
-function set() {
-	window.open("http://www.baidu.com");
-}
-
-function close(){
-	window.close();
-}
