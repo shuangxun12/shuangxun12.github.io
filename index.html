@@ -2,10 +2,30 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>获取当前时间</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>简易计算器</title>
 </head>
 <script type="text/javascript" src="js.js"></script>
 <body>
-	<input type="button" name="" value="click me" onclick="fun()">
+	<div align="center">
+		<h2>简易计算器</h2>
+		<br>
+		<br>
+		num1:<input type="text" id="num1">
+		<br>
+		<br>
+		num2:<input type="text" id="num2">
+		<br>
+		<br>
+		结果：<input type="text" id="ret">
+		<input type="button" name="" value="最大值" onclick="mymath(1)">
+		&nbsp;
+		<input type="button" name="" value="最小值" onclick="mymath(2)">
+		&nbsp;
+		<input type="button" name="" value="相加" onclick="mymath(3)">
+		&nbsp;
+		<input type="button" name="" value="相减" onclick="mymath(4)">
+	</div>
+
 </body>
 </html>
