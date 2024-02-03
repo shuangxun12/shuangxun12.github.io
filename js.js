@@ -20,7 +20,7 @@ function mymath(arg) {
 			break;
 			case 4:
 				document.getElementById("ret").value = Number(num1) - Number(num2);
-		break;
+			break;
 		}
 	}
 }
